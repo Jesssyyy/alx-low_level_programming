@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _isupper - checkes upper case
  * @c: print int
@@ -16,4 +17,5 @@ else
 {
 retun(0);
 }
+
 }
