@@ -1,13 +1,19 @@
 #include "main.h"
 
 /**
- * mu- mutiplies two integer
+ * mul- mutiplies two integer
  * @a: first integer.
  * @b: second integer.
- * Return: mutipication.
+ * Return: the result of the multipication
  */
-int mul(int a,int b)
+int mul(int a, int b)
 {
-return (a * b)
+
+	int c;
+
+	c = a * b;
+
+	return (c);
+
 }
 
