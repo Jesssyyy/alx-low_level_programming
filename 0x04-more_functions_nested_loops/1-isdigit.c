@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _isdigit - checkes if the no is b/n 0 t0 9
  * @c: input no
