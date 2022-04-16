@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * _isdigit - checkes if the no is b/n 0 t0 9
- * @c: input no
- * Return: 1 if c is a digit (0 to 9), 0 otherwise.
+ * _isdigit - checkes for a digit (0 through 9)
+ * @c: int to be checked
+ * Return: 1 if c is a digi, 0 otherwise.
  */
 
 int _isdigit(int c)
@@ -15,5 +16,4 @@ else
 {
 return(0);
 }
-_putchar('\n');
 }
