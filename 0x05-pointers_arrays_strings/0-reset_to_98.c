@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update address function 
+ * reset_to_98 - update address function
  * @n: integer
  *
  * Return: nothing
