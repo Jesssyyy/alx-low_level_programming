@@ -18,9 +18,9 @@ i++;
 if (i % 2 == 0)
 {
 for (j = 0; str[j] != '\0'; j++)
-}
+{
 if (j >= i / 2)
-putchar(str[j]);
+putchar(str[j])
 }
 }
 else
@@ -31,5 +31,5 @@ if (j > i / 2)
 putchar(str[j]);
 }
 }
-putchar('\n');
+putchar('\n')
 }
