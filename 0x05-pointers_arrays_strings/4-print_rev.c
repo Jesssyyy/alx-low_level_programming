@@ -19,3 +19,5 @@ putchar(s[i - 1]);
 i--;
 }
 putchar('\n');
+}
+
