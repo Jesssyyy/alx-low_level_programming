@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * str_concat - concatenates two strings.
+ * str_coincat - concatenates two strings.
  * @s1: first string.
- * s2: second string.
+ * @s2: second string.
  *
  * Return: pointer of an array of chars
  */
@@ -14,7 +14,7 @@ char *str_concat(char *s1, char *s2)
 	char *strout;
 	unsigned int i, j, k, limit;
 
-	if (s1 == NULL)
+	if (s1 ==NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
@@ -29,7 +29,6 @@ char *str_concat(char *s1, char *s2)
 
 	if (strout == NULL)
 	{
-
 		free(strout);
 		return (NULL);
 	}
@@ -40,6 +39,5 @@ char *str_concat(char *s1, char *s2)
 	limit = j;
 	for (j = 0; j <= limit; k++, j++)
 		strout[k] = s2[j];
-
 	return (strout);
 }
