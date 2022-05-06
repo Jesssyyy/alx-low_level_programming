@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * str_coincat - concatenates two strings.
+ * str_concat - concatenates two strings.
  * @s1: first string.
  * @s2: second string.
  *
@@ -14,7 +14,7 @@ char *str_concat(char *s1, char *s2)
 	char *strout;
 	unsigned int i, j, k, limit;
 
-	if (s1 ==NULL)
+	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
