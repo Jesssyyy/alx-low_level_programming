@@ -8,8 +8,8 @@
  * Return: Integers, index integer in @array that matches
  * condition of @cmp was found (SUCCESS)
  * -1 if size <= 0 or integer that matches condition of @cmp
- *  wasn't found in @array or
- *  NULL if @array || @cmp is NULL 
+ * wasn't found in @array or
+ * NULL if @array || @cmp is NULL
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
